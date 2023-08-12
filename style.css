@@ -10,6 +10,12 @@
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
   background-image: linear-gradient(
     to right top,
     #d16ba5,
@@ -45,8 +51,8 @@ body {
 .heading {
   position: relative;
   display: inline;
-  margin-top: 30px;
-  left: 35%;
+  text-align: center;
+  margin-bottom: 20px;
 }
 .heading h1 {
   font-family: open sans;
