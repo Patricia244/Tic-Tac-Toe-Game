@@ -36,6 +36,14 @@ body {
   font-family: neon;
   src: url();
 }
+.game-board{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+  width:80%;
+  height:50%
+}
 .heading {
   width: 300px;
   height: 80px;
